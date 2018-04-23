@@ -1,6 +1,10 @@
 # GeekdificadorTheGame
 
-__*Geekdificador - The Game*__ é um jogo baseado em alguns memes de um servidor do Discord  
+__*Geekdificador - The Game*__ é um jogo baseado em alguns memes de um servidor do [Discord](https://discordapp.com/).
+
+**Convite do servidor:** https://discord.gg/rPnaeSW
+
+**Leia as REGRAS após entrar no servidor!!!**
 
 **Criador tag:** Gabe#4346  
 
