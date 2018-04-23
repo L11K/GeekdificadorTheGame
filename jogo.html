@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="index.js"></script>
+    <title>Geekdificador</title>
+</head>
+<audio loop class="ost">
+    <source src="songs/OST.mp4" type="audio/mpeg">
+</audio>
+<body>
+    <div class="buttons">
+        <button class="botão" onclick="planilha(); coinSong();">Click</button>
+    </div>
+    <div class="contador">
+        <p class="p">Cadê a planilha?</p>
+    </div>
+    <div class="mural">
+        <div class="quadrado">
+            <!--M8-->
+            <div class="meitt">
+            <p class="m8">Meitt</p>
+            <img class="imgs" src="./img/m8.png" onclick="comprarM8()" alt="coisinha" height="64" width="64">
+            </div>
+            <!--NeoFusionBox-->
+            <div>
+            <p class="neo">NeoFusionBox</p>
+            <img class="imgs" src="./img/Neo.png" onclick="comprarNeo()" alt="coisinha" height="64" width="64">
+            </div>
+
+        </div>
+    </div>
+    <div class="volume">
+        <img src="img/tocando.png" alt="Tocando" onclick="songPause()" class="music">
+    </div> 
+    <div class="volume">
+        <img src="./img/sound.png" alt="Tocando" onclick="soundPause()" class="sound">
+    </div> 
+</body>

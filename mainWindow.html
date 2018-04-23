@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="index.js"></script>
+    <title>Geekdificador</title>
+</head>
+<body>
+    <audio loop class="ost">
+        <source src="songs/OST.mp4" type="audio/mpeg">
+    </audio>
+    <!---Menu-->
+    <div class="menu container">
+        <div class="titulo">
+            <img src="./img/Logo.jpg" alt="Logo do Geekdificador">
+            
+            <div class="buttons">
+                <button onclick="jogar(); inicioSong();">jogar</button>
+                <button onclick="sair();" class="sair">Sair</button>
+            </div>
+        </div>
+    </div>
+    <div class="volume">
+        <img src="img/tocando.png" alt="Tocando" onclick="songPause()" class="music">
+    </div> 
+</body>
+</html>

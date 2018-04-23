@@ -1,0 +1,14 @@
+{
+  "name": "jogu",
+  "version": "1.0.0",
+  "description": "jogu feito em Electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Gabe#4346",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.8.4"
+  }
+}

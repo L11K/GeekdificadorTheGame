@@ -1,0 +1,101 @@
+ @import url('https://fonts.googleapis.com/css?family=Lilita+One');
+
+ :root {
+     --blue-bg: #007172; 
+ }
+ html {
+     box-sizing: border-box;
+ }
+
+ *,
+::after::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lilita One', sans-serif;
+    background-color: var(--blue-bg);
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.menu {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 5%;
+}
+.menu img {
+    max-width: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 5%;
+}
+.buttons button {
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(7, 152, 171);
+    color: white;
+
+    /* Sizes */
+    padding: 15px 55px;
+    margin-top: 25px;    
+    font-size: 20px;
+
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: rgb(7, 152, 171);
+}
+
+.contador {
+    font-size: 30px;
+    color: white;
+}
+
+.mural {
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(0, 33, 37);
+    color: white;
+
+    /* Sizes */
+    padding: 20px 50px;
+    margin-top: 10px;    
+    font-size: 20px;
+}
+
+.quadrado {
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.quadrado > div > img {
+    height: 64px;
+    width: 64px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding-right: 100px;
+}
+
+.imgs {
+    height: 64px;
+    width: 64px;
+    transition: width 0.2s, height 0.2s;
+    position: relative;
+}
+
+.imgs:hover {
+    width: 75px;
+    height: 75px;
+}
