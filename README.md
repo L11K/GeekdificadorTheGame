@@ -17,6 +17,6 @@ __*Geekdificador - The Game*__ é um jogo baseado em alguns memes de um servidor
 **3° -** Abra a pasta que você colocou os arquivos do jogo e abra uma janela de prompt de comando.  
   **3.1° -** Você pode deixar a pasta com os arquivos na área de trabalho e abrir o Prompt de comando e digitar o seguinte comando. `cd "<url da pasta com os arquivos>"`.
   
-  **4° -** Digite na janela de promt de comando `npm install`, `npm install Electron` depois `npm start`.
+  **4° -** Digite na janela de promt de comando `npm install` e `npm install Electron` depois `npm start`.
   
   **5° -** Divirta-se jogando.
